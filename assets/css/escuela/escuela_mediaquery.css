@@ -1,0 +1,220 @@
+@media screen and (min-width: 414px) {}
+
+@media screen and (min-width: 600px) {
+
+    /** Seccion escuela **/
+
+    .nuestra-escuela h1 {
+        font-size: 35px;
+    }
+
+    .nuestra-escuela p {
+        font-size: 20px;
+    }
+
+    .nuestra-escuela a {
+        font-size: 14px;
+    }
+
+
+    /** sliders-estudiantes **/
+    .slider-estudiante-flex h1 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    /** Seccion escuela **/
+    .seccion-escuela {
+        height: 70vh;
+    }
+
+    .nuestra-escuela {
+        height: 70vh;
+    }
+
+
+    /** categorias **/
+    .categoria-estudiantes,
+    .categoria-maestros,
+    .categorias-comunidad {
+        height: 150px;
+    }
+
+    .categorias-flex h1 {
+        font-size: 30px;
+    }
+
+    .categorias-texto a {
+        font-size: 15px;
+        padding: 5px 8px;
+    }
+
+
+    /** sliders-estudiantes **/
+    .slider-estudiante-flex h1 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+
+    /** Seccion escuela **/
+    .seccion-escuela {
+        height: 100vh;
+    }
+
+    .nuestra-escuela {
+        height: 100vh;
+    }
+
+
+    /** sliders-estudiantes **/
+    .slider-estudiante-flex h1 {
+        font-size: 35px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+    /** Seccion escuela **/
+    .seccion-escuela {
+        height: 100vh;
+    }
+
+    .nuestra-escuela {
+        height: 100vh;
+    }
+
+    .nuestra-escuela h1 {
+        font-size: 50px;
+    }
+
+    .nuestra-escuela h3 {
+        font-size: 25px;
+    }
+
+    .nuestra-escuela a {
+        font-size: 16px;
+    }
+
+
+    /** categorias **/
+    .categoria-estudiantes,
+    .categoria-maestros,
+    .categorias-comunidad {
+        height: 250px;
+    }
+
+    .categorias-flex h1 {
+        font-size: 43px;
+    }
+
+    .categorias-texto a {
+        font-size: 20px;
+        padding: 5px 8px;
+        border: 2px solid #29fd53;
+    }
+
+
+    /** sliders-estudiantes **/
+    .slider-estudiante-flex {
+        padding: 0 20px 20px 20px;
+    }
+
+    .slider-estudiante-flex h1 {
+        font-size: 40px;
+    }
+
+    .carousel-inner {
+        height: 100vh;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+
+    /** Seccion escuela **/
+    .seccion-escuela {
+        height: 100vh;
+    }
+
+    .nuestra-escuela {
+        height: 100vh;
+    }
+
+    .nuestra-escuela h1 {
+        font-size: 60px;
+    }
+
+    .nuestra-escuela h3 {
+        font-size: 30px;
+    }
+
+    .nuestra-escuela a {
+        font-size: 16px;
+    }
+
+
+    /** sliders-estudiantes **/
+    .slider-estudiante-flex {
+        padding: 0 20px 20px 20px;
+    }
+
+    .slider-estudiante-flex h1 {
+        font-size: 45px;
+    }
+
+    .carousel-inner {
+        height: 90vh;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+
+    /** Seccion escuela **/
+
+    .nuestra-escuela h1 {
+        font-size: 60px;
+    }
+
+    .nuestra-escuela h3 {
+        font-size: 30px;
+    }
+
+    .nuestra-escuela a {
+        font-size: 16px;
+    }
+
+
+    /** categorias **/
+    .categoria-estudiantes,
+    .categoria-maestros,
+    .categorias-comunidad {
+        height: 300px;
+    }
+
+    .categorias-flex h1 {
+        font-size: 50px;
+    }
+
+    .categorias-texto a {
+        font-size: 25px;
+        padding: 5px 8px;
+        border: 2px solid #29fd53;
+    }
+
+
+    /** sliders-estudiantes **/
+    .slider-estudiante-flex {
+        padding: 0 20px 20px 20px;
+    }
+
+    .slider-estudiante-flex h1 {
+        font-size: 50px;
+    }
+
+    .carousel-inner {
+        height: 90vh;
+    }
+}

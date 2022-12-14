@@ -1,0 +1,247 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #222327;
+    --text-color: #fff;
+    --main-color: #29fd53;
+    --color1: #1D4520;
+    --color2: #467F38;
+    --color3: #B99034;
+    --color4: #EDD990;
+    --color5: #CAA755;
+    --color6: #6F5324;
+}
+
+/** general **/
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+/** footer **/
+footer {
+    width: 100%;
+    background-color: var(--bg-color);
+    text-decoration: none;
+    list-style: none;
+    transition: all .50s ease;
+}
+
+.footer-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-top {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: var(--text-color);
+}
+
+.fa-facebook-square,
+.fa-instagram-square,
+.fa-envelope {
+    margin: 0 5px 0 0;
+}
+
+
+.direccion {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
+}
+
+.direccion p {
+    padding: 10px 0 0 5px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.logo img {
+    width: 35px;
+}
+
+.footer-bottom {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 20px 0;
+
+}
+
+.line-footer {
+    width: 100%;
+    height: 2px;
+    background-color: var(--color2);
+}
+
+.links-footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links-footer a {
+    color: var(--text-color);
+    font-size: 13px;
+    text-decoration: none;
+    padding: 0 5px;
+    position: relative;
+    z-index: 1;
+}
+
+.links-footer a::before {
+    content: ' ';
+    width: 100%;
+    background-color: #467F38;
+    color: #29fd53;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 50px;
+}
+
+.links-footer a:hover::before {
+    height: 100%;
+}
+
+.creditos {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.creditos a {
+    color: var(--text-color);
+    font-size: 13px;
+    padding: 8px 0 0 0;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+}
+
+.creditos a:hover::before {
+    content: ' ';
+    width: 100%;
+    height: 2px;
+    background-color: #467F38;
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+}
+
+@media screen and (min-width: 600px) {
+
+    /** footer **/
+    .footer-top {
+        justify-content: space-around;
+    }
+
+    .logo img {
+        width: 50px;
+    }
+
+    .redes .fa-facebook-square,
+    .fa-instagram-square,
+    .fa-envelope {
+        font-size: 22px;
+        padding: 0 5px 0 0;
+    }
+
+    .direccion .fa-map-marker-alt {
+        font-size: 17px;
+    }
+
+    .direccion p {
+        font-size: 20px;
+    }
+
+    .links-footer a {
+        font-size: 17px;
+        padding: 0 8px;
+    }
+
+    .creditos a {
+        font-size: 14px;
+        padding: 8px 0 0 0;
+    }
+}
+
+@media screen and (min-width: 1268px) {
+
+    /** footer **/
+    .footer-container {
+        justify-content: space-between;
+    }
+
+    .footer-top {
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .logo img {
+        width: 70px;
+    }
+
+    .footer-bottom {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .redes .fa-facebook-square,
+    .fa-instagram-square,
+    .fa-envelope {
+        font-size: 32px;
+        padding: 0 8px 0 0;
+    }
+
+    .direccion .fa-map-marker-alt {
+        font-size: 17px;
+    }
+
+    .direccion p {
+        font-size: 20px;
+    }
+
+    .links-footer a {
+        font-size: 17px;
+        padding: 0 8px;
+    }
+
+    .creditos a {
+        font-size: 17px;
+        padding: 8px 0 0 0;
+    }
+}

@@ -1,0 +1,574 @@
+/** FONT FAMILY POPPINS **/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/** colores bases **/
+:root {
+    --bg-color: #222327;
+    --text-color: #fff;
+    --main-color: #29fd53;
+    --color1: #1D4520;
+    --color2: #467F38;
+    --color3: #B99034;
+    --color4: #EDD990;
+    --color5: #CAA755;
+    --color6: #6F5324;
+    --color7: #fc6076;
+}
+
+/* Globales */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-size: 16px;
+    /* 1rem = 10px */
+}
+
+/** BANNER - SLIDER **/
+.banner {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 50px);
+    background-color: #F5F5F5;
+    background-size: cover;
+    background-position: center;
+    transition: all .1s ease-out;
+    background-image: url('../img/violonchelo.jpg');
+    animation: banner 28s infinite linear;
+}
+
+.banner-content {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+    background-color: rgba(0, 22, 40, .6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content h1 {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 30px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.banner-content a {
+    text-decoration: none;
+    color: #FFF;
+    padding: 9px 20px;
+    border: 1px solid #FFF;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+}
+
+.banner-content a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+@keyframes banner {
+    0% {
+        background-image: url('../img/violonchelo.jpg');
+    }
+
+    25% {
+        background-image: url('../img/violin.jpg');
+    }
+
+
+    50% {
+        background-image: url('../img/violonchelo.jpg');
+    }
+
+    75% {
+        background-image: url('../img/ninos-violin.jpg');
+    }
+
+    100% {
+        background-image: url('../img/violin.jpg');
+    }
+
+}
+
+/** nuestros-cursos-container **/
+.nuestros-cursos-container {
+    width: 100%;
+    height: 100%;
+    background-color: #027333;
+}
+
+.nuestros-cursos-flex {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulos-nuestros {
+    width: 100%;
+    height: auto;
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulos-nuestros h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.titulos-nuestros h3 {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.cursos-flex {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.cuerda-flex {
+    width: 100%;
+    height: 100px;
+    background-image: url(../img/cursos\ 2\ -\ cuerda.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.viento-flex {
+    width: 100%;
+    height: 100px;
+    background-image: url(../img/Aprende-a-tocar-clarinete.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.percusion-flex {
+    width: 100%;
+    height: 100px;
+    background-image: url(../img/percursion\ -\ 1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.canto-flex {
+    width: 100%;
+    height: 100px;
+    background-image: url(../img/canto\ 1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.title-cuerda {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, .2);
+    cursor: pointer;
+}
+
+.title-cuerda:hover {
+    background-color: rgba(0, 0, 0, .5);
+    transition: all 0.50s ease;
+}
+
+.title-cuerda h3 {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.boton-nuestras {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 0 0;
+}
+
+.boton-nuestras a {
+    padding: 5px 10px;
+    text-align: center;
+    border: 1px solid #fff;
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.boton-nuestras a:hover {
+    color: var(--text-color);
+    background-color: #012340;
+    transition: all 0.50s ease;
+}
+
+
+/** aprender-container **/
+.aprender-container {
+    width: 100%;
+    height: 100%;
+    background-color: #012340;
+}
+
+.aprender-flex {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px 0 10px;
+}
+
+.aprender-titles {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 20px 0;
+}
+
+.aprender-titles h1 {
+    color: var(--text-color);
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+.aprender {
+    color: #E9C60E;
+}
+
+.escuela {
+    color: #29fd53;
+}
+
+.aprender-titles h3 {
+    color: var(--text-color);
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+/** slider-aprender**/
+.slider-aprender {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-aprender {
+    position: relative;
+    width: 80%;
+    height: 200px;
+    background-color: #F5F5F5;
+    background-size: cover;
+    background-position: center;
+    transition: all .1s ease-out;
+    background-image: url('../img/violonchelo.jpg');
+    animation: banner 28s infinite linear;
+}
+
+.banner-content-aprender {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+    background-color: rgba(0, 22, 40, .6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content-aprender h1 {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 30px;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+@keyframes banner {
+    0% {
+        background-image: url('../img/violonchelo.jpg');
+    }
+
+    25% {
+        background-image: url('../img/violin.jpg');
+    }
+
+
+    50% {
+        background-image: url('../img/violonchelo.jpg');
+    }
+
+    75% {
+        background-image: url('../img/ninos-violin.jpg');
+    }
+
+    100% {
+        background-image: url('../img/violin.jpg');
+    }
+
+}
+
+/** mision-vision-container **/
+.mision-vision-container {
+    width: 100%;
+    height: 100%;
+    background-color: var(--color3);
+}
+
+.mision-vision-flex {
+    width: 100%;
+    height: 100%;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mis-vis-container {
+    width: 80%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.mis-vis-container:hover {
+    background-color: rgba(0, 22, 40, .6);
+}
+
+.margin {
+    margin-right: 10px;
+}
+
+.mis-vis-container h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #012340;
+}
+
+.mis-vis-container p {
+    font-size: 0.7rem;
+    padding: 5px 10px;
+}
+
+
+/** modalidad container **/
+.modalidad-container {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(5, 7, 12, 0.60), rgba(5, 7, 12, 0.60)), url(../img/cursos\ 2\ -\ cuerda.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.moda-flex {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 30px;
+}
+
+.moda-textos {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.moda-textos h2 {
+    color: var(--text-color);
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.moda-clases {
+    color: var(--main-color);
+}
+
+.moda-textos h3 {
+    color: var(--text-color);
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.moda-boton {
+    width: 100%;
+    height: auto;
+    padding: 15px 0 0 0;
+}
+
+.moda-boton a {
+    padding: 5px 5px;
+    margin: 0 8px 0 0;
+    width: 20%;
+    height: 10%;
+    text-decoration: none;
+    border: 1px solid #ff9a44;
+    color: var(--text-color);
+    border-radius: 50px;
+    font-weight: 700;
+}
+
+.moda-boton a:hover {
+    transition: all 1s ease;
+    color: var(--text-color);
+    background-color: #ff9a44;
+}
+
+
+/** interes-container **/
+.interes-container {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+.interes-flex {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.interes-titulos {
+    width: 70%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(rgba(5, 7, 12, 0.60), rgba(5, 7, 12, 0.60)), url(../img/violonchelo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.interes-titulos h2 {
+    color: var(--text-color);
+    font-size: 1.2rem;
+    font-weight: 700;
+    width: 80%;
+}
+
+.curso {
+    color: #E9C60E;
+}
+
+.boton-interes {
+    width: 100%;
+    height: auto;
+    padding: 15px 0 0 0;
+}
+
+.boton-interes a {
+    font-size: 0.8rem;
+    padding: 5px 5px;
+    margin: 0 8px 0 0;
+    width: 20%;
+    height: 10%;
+    text-decoration: none;
+    border: 1px solid #ff9a44;
+    color: var(--text-color);
+    border-radius: 50px;
+    font-weight: 700;
+}
+
+.boton-interes a:hover {
+    transition: all 1s ease;
+    color: var(--text-color);
+    background-color: #ff9a44;
+}
+
+.interes-textos {
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    color: var(--bg-color);
+    text-align: center;
+}
+
+.interes-textos p {
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.redes-interes {
+    width: 100%;
+}
+
+.redes-interes a .fa-facebook-square,
+.redes-interes a .fa-instagram-square,
+.redes-interes a .fa-envelope {
+
+    color: var(--bg-color);
+}
+
+.redes-interes a:hover {
+    color: #ff9a44;
+    transition: all 1s ease;
+}

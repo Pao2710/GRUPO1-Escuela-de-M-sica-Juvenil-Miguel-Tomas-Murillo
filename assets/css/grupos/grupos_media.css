@@ -1,0 +1,512 @@
+/** MEDIA QUERIES **/
+@media screen and (min-width:414px) {}
+
+@media screen and (min-width:600px) {
+
+    /**container-grupos**/
+    .title-grupos h1 {
+        font-size: 4.4rem;
+    }
+
+    .title-grupos h2 {
+        font-size: 1.5rem;
+    }
+
+
+    /** beneficios-container **/
+    .beneficios-container {
+        height: 100%;
+    }
+
+    .beneficios-flex {
+        height: 100%;
+        padding: 30px 30px;
+    }
+
+    .benefit {
+        margin-right: 15px;
+    }
+
+    .bene-right {
+        margin-right: 0px;
+    }
+
+    .bene-title i {
+        font-size: 2.1rem;
+    }
+
+    .bene-title-2 h3 {
+        font-size: 1.5rem;
+    }
+
+
+    /** badge-container **/
+    .badge-grupos {
+        height: 50vh;
+    }
+
+    .badge-flex {
+        padding: 30px 30px;
+        align-items: flex-start;
+    }
+
+    .badge-1 {
+        height: 300px;
+        margin-right: 30px;
+        padding: 15px 10px;
+    }
+
+    .badge-joven {
+        margin-right: 0;
+    }
+
+    .badge-img img {
+        width: 150px;
+    }
+
+    .badge-1 h3 {
+        font-size: 2.5rem;
+    }
+
+    .badge-1 p {
+        font-size: 1.2rem;
+    }
+
+    /** fondo-container **/
+    .fondo-container {
+        height: 15vh;
+    }
+}
+
+@media screen and (min-width:768px) {
+
+    /**container-grupos**/
+    .grupos-flex {
+        height: 600px;
+    }
+
+    .title-grupos h1 {
+        font-size: 5rem;
+    }
+
+    .title-grupos h2 {
+        font-size: 1.7rem;
+    }
+
+
+    /** beneficios-container **/
+    .beneficios-container {
+        height: 100%;
+    }
+
+    .beneficios-flex {
+        height: 100%;
+        padding: 50px 30px;
+    }
+
+    .benefit {
+        margin-right: 15px;
+    }
+
+    .bene-right {
+        margin-right: 0px;
+    }
+
+    .bene-title i {
+        font-size: 2.7rem;
+    }
+
+    .bene-title-2 h3 {
+        font-size: 1.7rem;
+    }
+
+
+    /** badge-container **/
+    .badge-grupos {
+        height: 70vh;
+    }
+
+    .badge-flex {
+        padding: 50px 60px;
+    }
+
+    .badge-1 {
+        width: 50%;
+        height: 400px;
+        margin-right: 50px;
+        padding: 15px 20px;
+    }
+
+    .badge-joven {
+        margin-right: 0;
+    }
+
+    .badge-img img {
+        width: 200px;
+    }
+
+    .badge-1 h3 {
+        font-size: 2.4rem;
+    }
+
+    .badge-1 p {
+        font-size: 1.3rem;
+    }
+
+    /** fondo-container **/
+    .fondo-container {
+        height: 20vh;
+    }
+}
+
+
+@media screen and (min-width:1000px) {
+
+    /** beneficios-container **/
+    .beneficios-container {
+        height: 100%;
+    }
+
+    .beneficios-flex {
+        height: 100%;
+        padding: 70px 30px;
+    }
+
+    .benefit {
+        margin-right: 15px;
+    }
+
+    .bene-right {
+        margin-right: 0px;
+    }
+
+    .bene-title i {
+        font-size: 3rem;
+    }
+
+    .bene-title-2 h3 {
+        font-size: 2rem;
+    }
+
+    /** badge-container **/
+    .badge-grupos {
+        height: 100vh;
+    }
+
+    .badge-flex {
+        padding: 50px 70px;
+    }
+
+    .badge-1 {
+        width: 50%;
+        height: 500px;
+        margin-right: 70px;
+        padding: 15px 20px;
+    }
+
+    .badge-joven {
+        margin-right: 0;
+    }
+
+    .badge-img img {
+        width: 210px;
+    }
+
+    .badge-1 h3 {
+        font-size: 2.4rem;
+    }
+
+    .badge-1 p {
+        font-size: 1.3rem;
+    }
+
+
+    /** fondo-container **/
+    .fondo-container {
+        height: 30vh;
+    }
+}
+
+@media screen and (min-width:1280px) {
+
+    /** beneficios-container **/
+    .beneficios-container {
+        height: 100%;
+    }
+
+    .beneficios-flex {
+        height: 100%;
+        padding: 80px 30px;
+    }
+
+    .benefit {
+        margin-right: 30px;
+    }
+
+    .bene-right {
+        margin-right: 0px;
+    }
+
+    .bene-title i {
+        font-size: 3.5rem;
+    }
+
+    .bene-title-2 h3 {
+        font-size: 2.7rem;
+    }
+
+    /** badge-container **/
+    .badge-grupos {
+        height: 1200px;
+    }
+
+    .badge-flex {
+        padding: 70px 70px;
+    }
+
+    .badge-1 {
+        width: 40%;
+        height: 550px;
+        margin-right: 80px;
+        padding: 30px 70px;
+    }
+
+    .badge-joven {
+        margin-right: 0;
+    }
+
+    .badge-img img {
+        width: 280px;
+    }
+
+    .badge-1 h3 {
+        font-size: 2.8rem;
+    }
+
+    .badge-1 p {
+        font-size: 1.7rem;
+    }
+
+
+    /** fondo-container **/
+    .fondo-container {
+        height: 40vh;
+    }
+}
+
+@media screen and (min-width:1440px) {
+
+    /**container-grupos**/
+
+
+    .grupos-flex {
+        height: 100vh;
+    }
+
+    .title-grupos h1 {
+        font-size: 6rem;
+    }
+
+    .title-grupos h2 {
+        font-size: 2rem;
+    }
+
+    /** beneficios-container **/
+    .beneficios-container {
+        height: 100%;
+    }
+
+    .beneficios-flex {
+        height: 100%;
+        padding: 90px 30px;
+    }
+
+    .benefit {
+        margin-right: 30px;
+    }
+
+    .bene-right {
+        margin-right: 0px;
+    }
+
+    .bene-title i {
+        font-size: 3.5rem;
+    }
+
+    .bene-title-2 h3 {
+        font-size: 2.7rem;
+    }
+
+    /** badge-container **/
+    .badge-grupos {
+        height: 1200px;
+    }
+
+    .badge-flex {
+        padding: 80px 70px;
+    }
+
+    .badge-1 {
+        width: 35%;
+        height: 550px;
+        margin-right: 80px;
+        padding: 30px 70px;
+    }
+
+    .badge-joven {
+        margin-right: 0;
+    }
+
+    .badge-img img {
+        width: 280px;
+    }
+
+    .badge-1 h3 {
+        font-size: 2.8rem;
+    }
+
+    .badge-1 p {
+        font-size: 1.7rem;
+    }
+
+
+    /** fondo-container **/
+    .fondo-container {
+        height: 50vh;
+    }
+}
+
+@media screen and (min-width:1600px) {
+
+    /**container-grupos**/
+    .grupos-flex {
+        height: 100vh;
+    }
+
+    .title-grupos h1 {
+        font-size: 6.7rem;
+    }
+
+    .title-grupos h2 {
+        font-size: 2.3rem;
+    }
+
+
+    /** beneficios-container **/
+    .beneficios-container {
+        height: 100%;
+    }
+
+    .beneficios-flex {
+        height: 100%;
+        padding: 90px 60px;
+    }
+
+    .benefit {
+        margin-right: 30px;
+    }
+
+    .bene-right {
+        margin-right: 0px;
+    }
+
+    .bene-title i {
+        font-size: 3.5rem;
+    }
+
+    .bene-title-2 h3 {
+        font-size: 2.7rem;
+    }
+
+
+    /** badge-container **/
+    .badge-flex {
+        padding: 100px 70px;
+    }
+
+    .badge-1 {
+        width: 35%;
+        height: 650px;
+        margin-right: 80px;
+        padding: 30px 70px;
+    }
+
+    .badge-joven {
+        margin-right: 0;
+    }
+
+    .badge-img img {
+        width: 350px;
+    }
+
+    .badge-1 h3 {
+        font-size: 3.1rem;
+    }
+
+    .badge-1 p {
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (min-width:1920px) {
+
+    /** beneficios-container **/
+    .beneficios-container {
+        height: 100%;
+    }
+
+    .beneficios-flex {
+        height: 100%;
+        padding: 100px 60px;
+    }
+
+    .benefit {
+        margin-right: 30px;
+    }
+
+    .bene-right {
+        margin-right: 0px;
+    }
+
+    .bene-title i {
+        font-size: 3.7rem;
+    }
+
+    .bene-title-2 h3 {
+        font-size: 3rem;
+    }
+
+    /** badge-container **/
+    .badge-flex {
+        padding: 100px 70px;
+    }
+
+    .badge-1 {
+        width: 35%;
+        height: 700px;
+        margin-right: 80px;
+        padding: 30px 70px;
+    }
+
+    .badge-joven {
+        margin-right: 0;
+    }
+
+    .badge-img img {
+        width: 400px;
+    }
+
+    .badge-1 h3 {
+        font-size: 3.1rem;
+    }
+
+    .badge-1 p {
+        font-size: 1.7rem;
+    }
+
+
+    /** fondo-container **/
+    .fondo-container {
+        height: 60vh;
+    }
+}

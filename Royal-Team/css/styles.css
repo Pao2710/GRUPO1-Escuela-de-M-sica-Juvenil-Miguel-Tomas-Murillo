@@ -1,0 +1,362 @@
+/** FONT ROBOTO MONO **/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/** FONT INTER **/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Inter', sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+    /* 1rem = 10px */
+}
+
+/** header **/
+header {
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #bac6f6;
+}
+
+.header-container {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.menu {
+    width: 100%;
+    height: auto;
+}
+
+.links-menu {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links-menu a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.links-menu a:hover {
+    color: #540454;
+    transition: all 0.70s ease;
+}
+
+/** second-container **/
+.second-container {
+    width: 100%;
+    height: 220px;
+    /**padding: 10px 0 10px 10px;**/
+    /**background-color: #db9ddb;**/
+    padding-left: 10px;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.second-container-flex {
+    width: 100%;
+    height: 220px;
+    display: flex;
+}
+
+.second-container-title {
+    width: 100%;
+    height: 220px;
+    display: flex;
+}
+
+.second-title {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 10px;
+}
+
+.titulos {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+}
+
+.second-title h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1rem;
+
+}
+
+.second-title h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.7rem;
+
+}
+
+.second-title p {
+    font-family: 'Inter', sans-serif;
+}
+
+.scroll {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.scroll p {
+    font-weight: bold;
+}
+
+.lordicon {
+    width: 100%;
+    height: auto;
+}
+
+.lordicon img {
+    width: 5%;
+}
+
+.second-img {
+    width: 100%;
+    height: 220px;
+    display: flex;
+}
+
+.circle {
+    width: 100%;
+    height: 220px;
+    background-image: url(../img/fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 150px;
+}
+
+
+/**mision-container**/
+.mision-container {
+    width: 100%;
+    height: 100%;
+}
+
+.mision-flex {
+    width: 100%;
+    height: 100%;
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mision-title h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.mision-text p {
+    font-size: 1.2rem;
+}
+
+
+/** badge-container **/
+.badge-container {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+.badge-flex {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px;
+}
+
+.badge-title {
+    width: 100%;
+    height: auto;
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.badge-title h2 {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.bagde-cards {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+
+.badge-eliana {
+    margin-right: 0;
+}
+
+.badge-info {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-info img {
+    width: 50px;
+    height: auto;
+}
+
+.name h2 {
+    font-size: 1rem;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+}
+
+.profesion h3 {
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.redes {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.face img,
+.insta img {
+    text-decoration: none;
+    width: 15px;
+}
+
+
+/** footer-container **/
+.footer-container {
+    width: 100%;
+    height: 80px;
+    background-color: #540454;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.logo-footer {
+    width: 100%;
+    height: auto;
+}
+
+.logo-footer img {
+    width: 50px;
+}
+
+.seccion-footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.links-footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links-footer a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    padding-right: 10px;
+}
+
+.links-footer .contactanos {
+    padding-right: 0px;
+}
+
+.links-footer a:hover {
+    transition: all 0.70s ease;
+    color: #fbc2eb;
+}
+
+.copyright {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: 700;
+}
+
+.copyright p {
+    margin-bottom: 0;
+    color: #fff;
+}

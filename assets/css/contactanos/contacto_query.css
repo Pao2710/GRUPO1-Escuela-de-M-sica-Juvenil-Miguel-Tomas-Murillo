@@ -1,0 +1,398 @@
+@media screen and (min-width: 414px) {}
+
+@media screen and (min-width: 600px) {
+
+    /** contact-container **/
+    .img-flex-container {
+        height: 400px;
+    }
+
+    .titles-img-flex h1 {
+        color: var(--text-color);
+        font-size: 3rem;
+        font-weight: 700;
+    }
+
+    .titles-img-flex h2 {
+        color: var(--text-color);
+        font-size: 1.6rem;
+    }
+
+
+    /** form-container **/
+    .form-titles {
+        height: 250px;
+    }
+
+
+
+    .location .fa-map-marker-alt,
+    .celphone .fa-phone,
+    .email .fa-envelope,
+    .redes-form .fa-facebook-square {
+        font-size: 15px;
+    }
+
+    .redes-form .fa-instagram-square {
+        font-size: 22px;
+    }
+
+    .form-titles h2 {
+        font-size: 15px;
+        margin-left: 5px;
+    }
+
+    /** formulario-contenedor **/
+    .formulario-contenedor {}
+
+    form h2 {
+        font-size: 2rem;
+    }
+
+    .nom-ape input {
+        font-size: 1.5rem;
+        padding: 5px 5px;
+    }
+
+    .cel-email input {
+        font-size: 1.5rem;
+        padding: 5px 5px;
+    }
+
+    .interes input {
+        font-size: 1.5rem;
+    }
+
+    textarea {
+        font-size: 1.5rem;
+    }
+
+    .boton-summit input {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    /** contact-container **/
+    .img-flex-container {
+        height: 500px;
+    }
+
+    .titles-img-flex h1 {
+        color: var(--text-color);
+        font-size: 3.8rem;
+        font-weight: 700;
+    }
+
+    .titles-img-flex h2 {
+        color: var(--text-color);
+        font-size: 2rem;
+    }
+
+
+    /** form-container **/
+    .form-container {}
+
+    .form-cont-flex {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0 30px 30px 50px;
+    }
+
+    .form-titles {
+        width: 65%;
+        height: 400px;
+        margin-right: 30px;
+    }
+
+    .loca-cel,
+    .celphone,
+    .email,
+    .redes-form {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .img-form {
+        width: 100%;
+        height: 400px;
+    }
+
+    .formulario-contenedor {
+        width: 100%;
+
+    }
+
+    .formulario-flex {}
+
+    form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .nom-ape,
+    .cel-email {
+        width: 100%;
+        display: flex;
+    }
+
+    .nom-ape input,
+    .cel-email input {
+        width: 100%;
+    }
+
+    .in-nombre,
+    .in-email {
+        margin-right: 10px;
+    }
+
+    /** maps-container **/
+    .maps-content-flex {
+        flex-direction: row;
+        padding: 0 30px;
+    }
+
+    .maps-titulos {
+        height: 150px;
+    }
+
+    .mapa-contenedor {
+        height: 150px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+
+    /** contact-container **/
+    .form-container {}
+
+    .form-cont-flex {
+        height: 100%;
+        justify-content: flex-start;
+        padding: 30px 30px;
+    }
+
+    .form-titles {
+        height: 450px;
+    }
+
+    .loca-cel {
+        flex-direction: column;
+    }
+
+    .location,
+    .celphone,
+    .email,
+    .redes-form {
+        justify-content: flex-start;
+    }
+
+    .celphone {
+        padding: 0 0;
+    }
+
+    form h2 {
+        font-size: 3rem;
+    }
+
+    .boton-summit input {
+        width: 20%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+    /** contact-container **/
+    .img-flex-container {
+        height: 600px;
+    }
+
+    .titles-img-flex h1 {
+        color: var(--text-color);
+        font-size: 4.8rem;
+        font-weight: 700;
+    }
+
+    .titles-img-flex h2 {
+        color: var(--text-color);
+        font-size: 2.5rem;
+    }
+
+    /** form-container **/
+    .form-container {}
+
+    .form-cont-flex {
+        height: 100%;
+        justify-content: flex-start;
+        padding: 30px 30px;
+    }
+
+    .form-titles {
+        width: 40%;
+    }
+
+    .email .fa-envelope {
+        font-size: 20px;
+    }
+
+    .redes-form {
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+
+    .redes-form .fa-facebook-square {
+        font-size: 21px;
+        margin-right: 10px;
+    }
+
+    .redes-form .fa-instagram-square {
+        font-size: 30px;
+    }
+
+    .redes-form h2 {
+        font-size: 20px;
+    }
+
+    .formulario-contenedor {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .formulario-flex {
+        width: 80%;
+        justify-content: center;
+    }
+
+    form h2 {
+        font-size: 3rem;
+    }
+
+    .boton-summit input {
+        width: 10%;
+    }
+
+    /** maps-container **/
+    .maps-content-flex {
+        flex-direction: row;
+        padding: 0 30px;
+    }
+
+    .maps-titulos {
+        height: 250px;
+    }
+
+    .mapa-contenedor {
+        height: 250px;
+    }
+
+    .maps-titulos h3 {
+        font-size: 2.6rem;
+    }
+
+    .maps-titulos h2 {
+        font-size: 4.8rem;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+    /** contact-container **/
+    .img-flex-container {
+        height: 700px;
+    }
+
+    .titles-img-flex h1 {
+        color: var(--text-color);
+        font-size: 5rem;
+        font-weight: 700;
+    }
+
+    .titles-img-flex h2 {
+        color: var(--text-color);
+        font-size: 2.6rem;
+    }
+
+    /** form-container **/
+
+    form h2 {
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+
+    /** contact-container **/
+    .img-flex-container {
+        height: 800px;
+    }
+
+    .titles-img-flex h1 {
+        color: var(--text-color);
+        font-size: 5.5rem;
+        font-weight: 700;
+    }
+
+    .titles-img-flex h2 {
+        color: var(--text-color);
+        font-size: 2.8rem;
+    }
+
+
+    /** form-container **/
+
+    .formulario-flex {
+        width: 70%;
+        justify-content: center;
+    }
+
+    form h2 {
+        font-size: 3.5rem;
+    }
+
+
+    /** maps-container **/
+
+    .maps-content-flex {}
+
+    .maps-titulos {
+        width: 100%;
+    }
+
+    .mapa-contenedor {
+        width: 100%;
+    }
+
+    .maps-titulos h3 {
+        font-size: 2.6rem;
+    }
+
+    .maps-titulos h2 {
+        font-size: 4.8rem;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+
+    /** contact-container **/
+    .img-flex-container {
+        height: 1000px;
+    }
+
+    .titles-img-flex h1 {
+        color: var(--text-color);
+        font-size: 5.6rem;
+        font-weight: 700;
+    }
+
+    .titles-img-flex h2 {
+        color: var(--text-color);
+        font-size: 3rem;
+    }
+}

@@ -1,0 +1,528 @@
+/**media-queries**/
+
+@media screen and (min-width: 412px) {
+
+    /** cursos-container **/
+    .titulos-cursos h1 {
+        font-size: 3.6rem;
+    }
+
+    .titulos-cursos p {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 600px) {
+
+    /** cursos-container **/
+    .titulos-cursos h1 {
+        font-size: 3rem;
+    }
+
+    .cursos-flex {
+        flex-direction: row;
+    }
+
+    .titulos-cursos p {
+        font-size: 1.6rem;
+    }
+
+    .iconos-textos a {
+        font-size: 1.3rem;
+    }
+
+    /** mid-container **/
+    .mid-textos h2 {
+        font-size: 2rem;
+        color: #1D4520;
+        margin: 0 0 10px 0;
+    }
+
+    .mid-textos p {
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    .boton-mid {
+        margin: 10px 0 0 0;
+    }
+
+    .boton-mid a {
+        font-size: 1rem;
+        padding: 5px 8px;
+        border: 2px solid #2a9d8f;
+    }
+
+
+    /** mid-container **/
+    .mid-textos-flex h2 {
+        font-size: 3rem;
+    }
+
+    /** modalidad container **/
+    .modalidad-container {
+        height: 20vh;
+    }
+
+    .moda-flex {
+        height: 20vh;
+    }
+
+    .moda-textos h2 {
+        font-size: 2.7rem;
+    }
+
+    .moda-textos h3 {
+        font-size: 1rem;
+    }
+
+    .moda-boton {
+        margin-top: 10px;
+    }
+
+    .moda-boton a {
+        font-size: 1rem;
+        padding: 8px 8px;
+    }
+
+    /** interes-container **/
+    .interes-titulos {
+        height: 200px;
+    }
+
+    .interes-titulos h2 {
+        font-size: 2rem;
+    }
+
+    .boton-interes a {
+        font-size: 1.2rem;
+    }
+
+    .interes-textos p {
+        font-size: 1.2rem;
+    }
+
+    .redes-interes .fa-facebook-square {
+        font-size: 2.7rem;
+        padding-right: 8px;
+        padding-top: 4px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    /** cursos-container **/
+    .cursos-textos {
+        padding-right: 20px;
+    }
+
+    .titulos-cursos h1 {
+        font-size: 3.8rem;
+    }
+
+    .titulos-cursos p {
+        font-size: 1.6rem;
+    }
+
+    .iconos-textos a {
+        font-size: 1.6rem;
+    }
+
+    .cursos-flex {
+        flex-direction: row;
+    }
+
+    .cursos-links {
+        padding: 20px 0 20px 0;
+    }
+
+
+    /** mid-container **/
+    .mid-textos h2 {
+        font-size: 2.5rem;
+        color: #1D4520;
+        margin: 0 0 10px 0;
+    }
+
+    .mid-textos p {
+        font-size: 1.5rem;
+        text-align: justify;
+    }
+
+    .boton-mid {
+        margin: 10px 0 0 0;
+    }
+
+    .boton-mid a {
+        font-size: 1.5rem;
+        padding: 5px 8px;
+        border: 2px solid #2a9d8f;
+    }
+
+    /** modalidad container **/
+    .modalidad-container {
+        height: 30vh;
+    }
+
+    .moda-flex {
+        height: 30vh;
+    }
+
+    /** interes-container **/
+    .interes-titulos {
+        height: 250px;
+    }
+
+    .interes-titulos h2 {
+        font-size: 2.5rem;
+    }
+
+    .boton-interes a {
+        font-size: 1.3rem;
+    }
+
+    .interes-textos p {
+        font-size: 1.5rem;
+    }
+
+
+
+}
+
+@media screen and (min-width: 1000px) {
+
+    /** cursos-container **/
+    .titulos-cursos h1 {
+        font-size: 4.3rem;
+    }
+
+    .titulos-cursos p {
+        font-size: 1.5rem;
+    }
+
+    .boton-links a {
+        font-size: 1.5rem;
+    }
+
+
+    /** mid-container **/
+    .mid-textos h2 {
+        font-size: 3rem;
+        color: #1D4520;
+        margin: 0 0 20px 0;
+    }
+
+    .mid-textos p {
+        font-size: 1.8rem;
+        text-align: justify;
+    }
+
+    .boton-mid {
+        margin: 20px 0 0 0;
+    }
+
+    .boton-mid a {
+        font-size: 1.8rem;
+        padding: 5px 8px;
+        border: 2px solid #2a9d8f;
+    }
+
+    /** modalidad container **/
+    .modalidad-container {
+        height: 40vh;
+    }
+
+    .moda-flex {
+        height: 40vh;
+    }
+
+    .moda-textos h2 {
+        font-size: 3.5rem;
+    }
+
+    .moda-textos h3 {
+        font-size: 1.5rem;
+    }
+
+    .moda-boton {
+        margin-top: 10px;
+    }
+
+    .moda-boton a {
+        font-size: 1.5rem;
+        padding: 8px 8px;
+    }
+
+    /** interes-container **/
+    .interes-titulos {
+        height: 300px;
+    }
+
+    .interes-titulos h2 {
+        font-size: 2.8rem;
+    }
+
+    .boton-interes a {
+        font-size: 1.3rem;
+    }
+
+    .interes-textos p {
+        font-size: 2rem;
+    }
+
+    .redes-interes .fa-facebook-square {
+        font-size: 3.5rem;
+    }
+
+    .redes-interes a .fa-instagram-square {
+        font-size: 3.2rem;
+    }
+
+    .redes-interes a .fa-envelope {
+        font-size: 3.2rem;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    /** banner **/
+
+    .banner-content h1 {
+        font-size: 4.5rem;
+    }
+
+    .banner-content a {
+        font-size: 1.5rem;
+    }
+
+    /** mid-container **/
+    .mid-textos h2 {
+        font-size: 3.5rem;
+        color: #1D4520;
+        margin: 0 0 40px 0;
+    }
+
+    .mid-textos p {
+        font-size: 2rem;
+        text-align: justify;
+    }
+
+    .boton-mid {
+        margin: 40px 0 0 0;
+    }
+
+    .boton-mid a {
+        font-size: 2rem;
+        padding: 5px 8px;
+        border: 2px solid #2a9d8f;
+    }
+
+    /** modalidad container **/
+    .modalidad-container {
+        height: 60vh;
+    }
+
+    .moda-flex {
+        height: 60vh;
+    }
+
+    .moda-textos h2 {
+        font-size: 4.8rem;
+    }
+
+    .moda-textos h3 {
+        font-size: 2rem;
+    }
+
+    .moda-boton {
+        margin-top: 10px;
+    }
+
+    .moda-boton a {
+        font-size: 1.5rem;
+        padding: 8px 8px;
+        border: 2px solid #ff9a44;
+    }
+
+    /** interes-container **/
+    .interes-titulos {
+        height: 400px;
+    }
+
+    .interes-titulos h2 {
+        font-size: 3.5rem;
+    }
+
+    .boton-interes a {
+        font-size: 1.6rem;
+    }
+
+    .interes-textos p {
+        font-size: 2.3rem;
+    }
+
+    .redes-interes .fa-facebook-square {
+        font-size: 3.8rem;
+    }
+
+    .redes-interes a .fa-instagram-square {
+        font-size: 3.8rem;
+    }
+
+    .redes-interes a .fa-envelope {
+        font-size: 3.2rem;
+    }
+}
+
+
+@media screen and (min-width: 1440px) {
+
+    /** mid-container **/
+    .mid-textos h2 {
+        font-size: 3.5rem;
+        color: #1D4520;
+        margin: 0 0 40px 0;
+    }
+
+    .mid-textos p {
+        font-size: 2.5rem;
+        text-align: justify;
+        padding: 0 10px 0 0;
+    }
+
+    .boton-mid {
+        margin: 40px 0 0 0;
+    }
+
+    .boton-mid a {
+        font-size: 2rem;
+        padding: 5px 8px;
+        border: 2px solid #2a9d8f;
+    }
+
+    /** modalidad container **/
+    .modalidad-container {
+        height: 70vh;
+    }
+
+    .moda-flex {
+        height: 70vh;
+    }
+
+    .moda-textos h2 {
+        font-size: 5rem;
+    }
+
+    .moda-textos h3 {
+        font-size: 2.1rem;
+    }
+
+    .moda-boton {
+        margin-top: 10px;
+    }
+
+    .moda-boton a {
+        font-size: 1.6rem;
+        padding: 8px 8px;
+        border: 2px solid #ff9a44;
+    }
+
+    /** interes-container **/
+    .interes-titulos {
+        height: 500px;
+    }
+
+    .interes-titulos h2 {
+        font-size: 4rem;
+    }
+
+    .boton-interes a {
+        font-size: 1.8rem;
+        padding: 5px 9px;
+    }
+
+    .interes-textos p {
+        font-size: 2.6rem;
+    }
+
+    .redes-interes .fa-facebook-square {
+        font-size: 3.8rem;
+    }
+
+    .redes-interes a .fa-instagram-square {
+        padding-top: 3px;
+        font-size: 3.8rem;
+    }
+
+    .redes-interes a .fa-envelope {
+        font-size: 3.8rem;
+        padding-top: 3px;
+    }
+
+}
+
+@media screen and (min-width: 1920px) {
+
+    /** cursos-container **/
+    .titulos-cursos {
+        padding-bottom: 80px;
+    }
+
+    .titulos-cursos h1 {
+        font-size: 5.7rem;
+    }
+
+    .titulos-cursos p {
+        font-size: 2rem;
+    }
+
+    .boton-links a {
+        font-size: 2rem;
+    }
+
+    .cursos-links {
+        padding-bottom: 80px;
+    }
+
+    /** mid-container **/
+    .mid-textos h2 {
+        font-size: 4rem;
+        color: #1D4520;
+        margin: 0 0 60px 0;
+    }
+
+    .mid-textos p {
+        font-size: 2.8rem;
+        text-align: justify;
+        padding: 0 10px 0 0;
+    }
+
+    .boton-mid {
+        margin: 60px 0 0 0;
+    }
+
+    .boton-mid a {
+        padding: 5px 8px;
+        border: 2px solid #2a9d8f;
+        font-size: 2.3rem;
+    }
+
+    /** interes-container **/
+    .interes-titulos {
+        height: 600px;
+    }
+
+    .interes-titulos h2 {
+        font-size: 5.5rem;
+    }
+
+    .boton-interes a {
+        font-size: 2rem;
+        padding: 5px 9px;
+    }
+
+    .interes-textos p {
+        font-size: 3.5rem;
+    }
+
+
+}

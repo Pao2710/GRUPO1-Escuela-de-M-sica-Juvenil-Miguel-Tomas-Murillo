@@ -1,0 +1,293 @@
+/** FONT FAMILY POPPINS **/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/** colores bases **/
+:root {
+	--bg-color: #222327;
+	--text-color: #fff;
+	--main-color: #29fd53;
+	--color1: #1D4520;
+	--color2: #467F38;
+	--color3: #B99034;
+	--color4: #EDD990;
+	--color5: #CAA755;
+	--color6: #6F5324;
+	--color7: #fc6076;
+}
+
+/* Globales */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+	font-size: 16px;
+	/* 1rem = 10px */
+}
+
+
+/** contact-container **/
+.contact-container {
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(rgba(5, 7, 12, 0.60), rgba(5, 7, 12, 0.60)), url(../../img/estudiante2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.img-flex-container {
+	width: 100%;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.titles-img-flex {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 100px 0 0 0;
+}
+
+.titles-img-flex h1 {
+	color: var(--text-color);
+	font-size: 2.5rem;
+	font-weight: 700;
+}
+
+.titles-img-flex h2 {
+	color: var(--text-color);
+	font-size: 1.3rem;
+}
+
+
+/** form-container **/
+.form-container {
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.form-cont-flex {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.form-titles {
+	background-color: #025939;
+	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+	width: 80%;
+	height: 200px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+}
+
+.loca-cel {
+	width: 50%;
+	height: auto;
+	display: flex;
+	padding: 20px 0 0 0;
+}
+
+.email-redes {
+	width: 50%;
+	height: auto;
+}
+
+.location,
+.celphone,
+.redes-form {
+	width: 80%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.email {
+	width: 80%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.location .fa-map-marker-alt,
+.celphone .fa-phone,
+.email .fa-envelope,
+.redes-form .fa-facebook-square,
+.redes-form .fa-instagram-square {
+	color: var(--text-color);
+	font-size: 11px;
+}
+
+.form-titles h2 {
+	color: var(--text-color);
+	font-size: 11px;
+	margin-left: 5px;
+}
+
+.redes-form {
+	padding: 0 0 20px 0;
+}
+
+.redes-form h2 {
+	margin-right: 5px;
+}
+
+.img-form {
+	width: 100%;
+	height: 200px;
+	background-image: url(../../img/violonchelo.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.formulario-contenedor {
+	width: 80%;
+	height: 100%;
+}
+
+.formulario-flex {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+form {
+	width: 100%;
+	height: auto;
+	padding: 30px 0;
+}
+
+form h2 {
+	font-size: 1.5rem;
+	font-weight: bold;
+	padding: 0 0 10px 0;
+	color: var(--color2);
+}
+
+.nom-ape {
+	margin-bottom: 10px;
+}
+
+.nom-ape input {
+	width: 49%;
+	padding: 5px 5px;
+}
+
+.cel-email {
+	margin-bottom: 10px;
+}
+
+.cel-email input {
+	width: 49%;
+	padding: 5px 5px;
+}
+
+.interes {
+	margin-bottom: 10px;
+}
+
+.interes input {
+	width: 100%;
+	padding: 5px 5px;
+}
+
+textarea {
+	width: 100%;
+	padding: 5px 5px;
+}
+
+.boton-summit {
+	margin-top: 10px;
+}
+
+.boton-summit input {
+	background-color: #012340;
+	width: 30%;
+	color: var(--text-color);
+	font-size: 1.2rem;
+	font-weight: 700;
+	padding: 5px 0;
+	border: #012340;
+}
+
+.boton-summit input:hover {
+	background-color: #29fd53;
+	transition: all 0.50s ease;
+	color: #012340;
+}
+
+
+/** maps-container **/
+.maps-container {
+	width: 100%;
+	height: 100%;
+}
+
+.maps-content-flex {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.maps-titulos {
+	width: 80%;
+	height: 70px;
+	background-color: #012340;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.maps-titulos h3 {
+	font-size: 1.4rem;
+}
+
+.maps-titulos h2 {
+	font-size: 2.5rem;
+	color: #E9C60E;
+	font-weight: 700;
+}
+
+.mapa-contenedor {
+	width: 80%;
+	height: 100px;
+	display: flex;
+}
+
+.mapa-contenedor iframe {
+	background-color: rgba(0, 0, 0, 0.7);
+}
